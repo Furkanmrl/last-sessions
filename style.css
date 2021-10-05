@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Audiowide";
+    margin: 8px;
+}
+#header{
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid red;
+}
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid red;
+}
+#brandig{
+    font-family:"Audiowide" ;
+}
+span{
+    color: red;
+}
+#navigation ul{
+    display: flex;
+}
+li{
+    padding: 20px;
+    list-style: none;
+    font-family:"Audiowide"
+}
+#main{
+    background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.6)),
+    url("images/banner\ \(1\).jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#main p{
+    font: size 30px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+}
+#about, #contact {
+    background-color: black;
+    padding: 20px;
+}
+#about h2, #contact h2{
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+#about p, #contact p{  
+    color: white;
+}
